@@ -1,10 +1,9 @@
 import { useCallback, useEffect, useState } from "react";
 import {
   definePluginApp,
-  useBbContext,
   useRealtime,
   useRpc,
-} from "@get-bb/plugin-sdk/app";
+} from "@riftlabs/plugin-sdk/app";
 import { toast } from "sonner";
 import { Button } from "@/components/ui/button";
 import type { rpcContract } from "./server";

@@ -1,4 +1,4 @@
-import { defineRpcContract, type BbPluginApi } from "@get-bb/plugin-sdk";
+import { defineRpcContract, type RiftPluginApi } from "@riftlabs/plugin-sdk";
 import { z } from "zod";
 import { createHash } from "node:crypto";
 import { homedir } from "node:os";
@@ -122,7 +122,7 @@ export const rpcContract = defineRpcContract({
   },
 });
 
-export default function plugin(bb: BbPluginApi) {
+export default function plugin(bb: RiftPluginApi) {
   const files = () => bb.sdk.files;
 
   async function readText(p: string): Promise<string | null> {

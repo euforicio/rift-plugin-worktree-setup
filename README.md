@@ -120,3 +120,8 @@ or `custom` with an exact version; it bumps, builds, tags, and pushes for you.
 ## License
 
 MIT
+
+## Fork provenance
+
+Rift Labs fork: https://github.com/euforicio/rift-plugin-worktree-setup
+Upstream: https://github.com/KaviiSuri/bb-plugin-worktree-setup
